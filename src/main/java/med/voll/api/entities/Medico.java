@@ -1,11 +1,19 @@
 package med.voll.api.entities;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 import med.voll.api.endereco.Endereco;
 import med.voll.api.medico.Especialidade;
 
 @Table(name="medicos")
 @Entity(name="Medico")
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
+@EqualsAndHashCode(of="id")
 public class Medico {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
