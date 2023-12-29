@@ -10,3 +10,4 @@ REST API feita com Spring Boot utilizando dos conceitos de:
 - Deleção de registro e Deleção lógica
 - Segurança com Spring Security
 - Hash de senhas usando BCrypt
+- Uso de tokens JWT
