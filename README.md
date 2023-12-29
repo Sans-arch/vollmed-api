@@ -8,3 +8,4 @@ REST API feita com Spring Boot utilizando dos conceitos de:
 - Criação de DTOs para receber dados de uma requisição e para gerar responses (serializações JSON)
 - Paginação e ordenação
 - Deleção de registro e Deleção lógica
+- Segurança com Spring Security
