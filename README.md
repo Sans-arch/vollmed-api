@@ -9,3 +9,4 @@ REST API feita com Spring Boot utilizando dos conceitos de:
 - Paginação e ordenação
 - Deleção de registro e Deleção lógica
 - Segurança com Spring Security
+- Hash de senhas usando BCrypt
