@@ -13,14 +13,15 @@ import java.util.Collection;
 import java.util.List;
 
 @Table(name = "usuarios")
-@Entity(name="Usuario")
+@Entity(name = "Usuario")
+@Getter
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter
-@EqualsAndHashCode(of="id")
+@EqualsAndHashCode(of = "id")
 public class Usuario implements UserDetails {
 
-    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String login;
     private String senha;
