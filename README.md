@@ -11,3 +11,4 @@ REST API feita com Spring Boot utilizando dos conceitos de:
 - Segurança com Spring Security
 - Hash de senhas usando BCrypt
 - Uso de tokens JWT
+- Documentação de API com uso de SpringDoc OpenAPI
