@@ -13,7 +13,7 @@ REST API feita com Spring Boot utilizando dos conceitos de:
 - Uso de tokens JWT
 - Documentação de API com uso de SpringDoc OpenAPI
 - Testes automatizados usando Spring Starter Test (JUnit, Mockito, ...)
-
+- Gerar build da aplicação via Maven e execução em produção (via terminal)
 
 ## Comandos
 
